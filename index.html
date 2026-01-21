@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday My Love ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="Christina Perri - A Thousand Years [Official Music Video].mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Popup -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup()">×</span>
+      <p id="popupText"></p>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="section hero">
+    <h1>Happy Birthday My Love 🎂❤️</h1>
+    <p>Scroll slowly… this is my heart speaking ✨</p>
+    <button class="music-btn" onclick="toggleMusic()">🎶 Play Music</button>
+  </section>
+
+  <!-- STORY -->
+  <section class="section">
+    <img src="images/WhatsApp Image 2026-01-20 at 3.35.44 PM.jpeg" class="photo" onclick="openPopup(1)">
+    <p class="fade">The moment you came into my life, everything found meaning 💕</p>
+  </section>
+
+  <section class="section">
+    <img src="images/IMG-20250219-WA0015.jpg" class="photo" onclick="openPopup(2)">
+    <p class="fade">Every journey feels lighter because I walk it with you 🌙❤️</p>
+  </section>
+
+  <section class="section">
+    <img src="images/IMG20250220221535.jpg" class="photo" onclick="openPopup(3)">
+    <p class="fade">You are my calm, my strength, my forever 🤍</p>
+  </section>
+
+  <!-- END -->
+  <section class="section end">
+    <h2 class="fade">I Love You — Always ❤️</h2>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
